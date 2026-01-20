@@ -20,3 +20,21 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+/*responsive*/
+@media screen and (max-width: 576px) {
+    .raw{
+        height: auto;
+        flex-direction: column;
+    }
+    .square-collage{
+        grid-template-columns:1fr;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 990px) {
+    .raw{
+        height: auto;
+        flex-direction: column;
+    }
+    
+}
